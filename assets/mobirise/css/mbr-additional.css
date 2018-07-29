@@ -1716,8 +1716,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #000000;
-  background: linear-gradient(to left, #000000, #232323) !important;
+  background: #cc2972;
+  background: linear-gradient(to left, #cc2972, #232323) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -1746,8 +1746,8 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #000000 !important;
-  background: linear-gradient(to left, #000000, #232323) !important;
+  background: #cc2972 !important;
+  background: linear-gradient(to left, #cc2972, #232323) !important;
   opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
@@ -1778,8 +1778,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #232323;
-  background: linear-gradient(to left, #232323, #232323) !important;
+  background: #cc2972;
+  background: linear-gradient(to left, #cc2972, #232323) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -1808,8 +1808,8 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #232323 !important;
-  background: linear-gradient(to left, #232323, #232323) !important;
+  background: #cc2972 !important;
+  background: linear-gradient(to left, #cc2972, #232323) !important;
   opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
