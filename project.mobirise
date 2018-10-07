@@ -36,7 +36,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 27,
+    "uniqCompNum": 33,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/3-46-128x128-1.png",
@@ -450,7 +450,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">YA.ELLE</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/3-46-122x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">DIGITAL CONTENT&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"><span class=\"mbri-sun2 mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(250, 0, 151);\"></span>\n                    \n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qTkzRZLJNu",
           "_anchor": "menu1-0",
           "_protectedParams": [],
@@ -492,7 +492,7 @@
             }
           },
           "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"65\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\">YA.ELLE</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-1\"><b><br></b><b>YA-ELLE</b></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">VISUAL MOVEMENT CONTENT</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"index.html#gallery3-n\" data-app-placeholder=\"Type Text\">ART DIRECTION<br></a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#gallery3-a\" data-app-placeholder=\"Type Text\">MOVEMENT DIRECTION&amp;CHOREOGRAPHY<br></a>  <a class=\"btn btn-md btn-white-outline\" href=\"index.html#instagram-feed-block-o\" data-app-placeholder=\"Type Text\">PERFORMANCE</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/art-fashion-dance-1-1368x770.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"55\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\">YA.ELLE</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-1\"><p><a href=\"index.html#footer1-2\"></a><b><br></b><b>YA-ELLE</b></p></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">VISUAL MOVEMENT CONTENT</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"index.html#gallery3-n\" data-app-placeholder=\"Type Text\">DIRECTOR &amp; ART DIRECTION<br></a>    <a class=\"btn btn-md btn-white-outline\" href=\"index.html#gallery3-a\" data-app-placeholder=\"Type Text\">MOVEMENT DIRECTION&amp;CHOREOGRAPHY<br></a>  <a class=\"btn btn-md btn-white-outline\" href=\"index.html#instagram-feed-block-o\" data-app-placeholder=\"Type Text\">DIGITAL TALENT<br></a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/art-fashion-dance-1-1368x770.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qXTAB7DW8s",
           "_anchor": "header4-b",
           "_protectedParams": [],
@@ -501,41 +501,244 @@
           "_params": {}
         },
         {
-          "_params": {
-            "token": "4106568.727bfe1.5069d2a9f0064e93b8bd22149eb89b79",
-            "showTitle": true,
-            "layoutGridRadio": true,
-            "imagesPerRowGrid": "4",
-            "rows": "5",
-            "showMoreButton": true,
-            "layoutSliderRadio": false,
-            "imagesPerRowSlider": 4,
-            "spacing": "0",
-            "fullWidth": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
-            "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": 0.6
-          },
-          "title": "<b>@YA.ELLE.</b><b>ART</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>Show more</a>",
-          "display2": "display-2",
-          "display4": "display-4",
-          "alias": "instagram-feed",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-o",
           "_styles": {
-            ".inst__title B": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            },
+            ".mbr-gallery-item > div > span B": {
+              "color": "#ffffff"
+            },
+            ".mbr-gallery-item > div > span A": {
+              "color": "#ffffff"
+            },
+            ".mbr-gallery-item > div > span": {
               "color": "#ffffff"
             }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cc2972\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#232323\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"6\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "qXLD00uXow",
+          "_anchor": "gallery3-a",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "MOVEMENT DIRECTION &amp; CHOREOGRAPHY",
+            "gallery__filtersTextStyle": "display-4",
+            "gallery__filtersBtnStyle": "btn-white-outline",
+            "gallery": [
+              {
+                "tags": "VIDEO",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
+                "playVideo": true,
+                "videoUrl": "https://vimeo.com/279924502",
+                "image": "@PROJECT_PATH@/assets/images/g27-1181x787.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/g27-1181x787-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>GADE </b>&nbsp;<b>COSMETICS</b></i>",
+                "active": false
+              },
+              {
+                "tags": "VIDEO",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-22-47-28-734443.jpg",
+                "playVideo": true,
+                "videoUrl": "https://vimeo.com/279924672",
+                "image": "@PROJECT_PATH@/assets/images/g51-1181x830.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/g51-1181x830-800x562.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>LA-ISHA MAGAZINE</b>",
+                "active": false
+              },
+              {
+                "tags": "VIDEO",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-22-46-25-229891.jpg",
+                "playVideo": true,
+                "videoUrl": "https://vimeo.com/279925630",
+                "image": "@PROJECT_PATH@/assets/images/g51-1181x830.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/g51-1181x830-800x562.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<b>LOREAL</b>",
+                "active": false
+              },
+              {
+                "tags": "STILLS",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
+                "playVideo": false,
+                "videoUrl": "https://vimeo.com/279924502",
+                "image": "@PROJECT_PATH@/assets/images/gg61-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gg61-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>GOLBARY</b></i>&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "STILLS",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
+                "playVideo": false,
+                "videoUrl": "https://vimeo.com/279924502",
+                "image": "@PROJECT_PATH@/assets/images/g3-1181x1772.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/g3-1181x1772-800x1200.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>&nbsp;GOLBARY</b></i>&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "STILLS",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
+                "playVideo": false,
+                "videoUrl": "https://vimeo.com/279924502",
+                "image": "@PROJECT_PATH@/assets/images/g7-1181x787.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/g7-1181x787-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<i><b>GOLBARY&nbsp;</b></i>",
+                "active": false
+              },
+              {
+                "tags": "STILLS",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
+                "playVideo": false,
+                "videoUrl": "https://vimeo.com/279924502",
+                "image": "@PROJECT_PATH@/assets/images/g9-1181x787.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/g9-1181x787-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>GOLBARY</b></i>&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "STILLS",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
+                "playVideo": false,
+                "videoUrl": "https://vimeo.com/279924502",
+                "image": "@PROJECT_PATH@/assets/images/g66-1181x787.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/g66-1181x787-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>GOLBARY</b></i>&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "STILLS",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
+                "playVideo": false,
+                "videoUrl": "https://vimeo.com/279924502",
+                "image": "@PROJECT_PATH@/assets/images/gg57-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gg57-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>&nbsp;GOLBARY</b>&nbsp;</i>",
+                "active": false
+              },
+              {
+                "tags": "STILLS",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
+                "playVideo": false,
+                "videoUrl": "https://vimeo.com/279924502",
+                "image": "@PROJECT_PATH@/assets/images/taubofficial-15-5-2018-14-21-18-778-1080x1078.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/taubofficial-15-5-2018-14-21-18-778-1080x1078-800x799.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>&nbsp;TAUB</b></i>",
+                "active": true
+              },
+              {
+                "tags": "VIDEO",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-1-11-27-20-487491.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/uXM6hBl7uvM",
+                "image": "@PROJECT_PATH@/assets/images/g3-1181x1772.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/g3-1181x1772-800x1200.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>LOREAL</b>",
+                "active": false
+              }
+            ]
           }
         },
         {
@@ -622,7 +825,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "text_all": "ART DIRECTION<br>",
+            "text_all": "DIRECTOR &amp; ART DIRECTION<br>",
             "gallery__filtersTextStyle": "display-4",
             "gallery__filtersBtnStyle": "btn-white-outline",
             "gallery": [
@@ -636,7 +839,33 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "art direction&amp;edit-YA.ELLE",
+                "caption": "art direction &amp; video edit-YA.ELLE",
+                "active": false
+              },
+              {
+                "tags": "fashion",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-0-17-5-2-818803.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=1LVAd9-8xKo&ab_channel=shakshak",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>LILACH ELGRABLI<br></b>Art Direction , Film &amp; Edit <br>YA-ELLE",
+                "active": false
+              },
+              {
+                "tags": "fashion",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-0-17-5-47-52761.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=Abql56NURfk&ab_channel=shakshak",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>LILACH ELGRABLI<br></b>Art Direction , Film &amp; Edit <br>YA-ELLE",
                 "active": false
               },
               {
@@ -649,7 +878,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "art direction&amp;edit-YA.ELLE",
+                "caption": "art direction &amp; video edit-YA.ELLE",
                 "active": false
               },
               {
@@ -662,20 +891,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "art direction&amp;edit-YA.ELLE",
-                "active": false
-              },
-              {
-                "tags": "makeup",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-23-22-36-162578.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/K-Z_6rHouH4",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<br><i><b>REVLON COSMETICS<br></b></i>Art Direction,Film&amp;Edit&nbsp;<br> YA-ELLE",
+                "caption": "art direction &amp; video edit-YA.ELLE",
                 "active": false
               },
               {
@@ -688,7 +904,20 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<i style=\"font-weight: bold;\">VERED SPIVAK, MAKE UP ARTIST</i><br>Art Direction &amp; Edit- YA-ELLE&nbsp;<i style=\"font-weight: bold;\"><br></i>",
+                "caption": "<i style=\"font-weight: bold;\">VERED SPIVAK, MAKE UP ARTIST</i><br>Art Direction &amp; video Edit- YA-ELLE&nbsp;<i style=\"font-weight: bold;\"><br></i>",
+                "active": false
+              },
+              {
+                "tags": "makeup",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-23-22-36-162578.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/K-Z_6rHouH4",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<br><i><b>REVLON COSMETICS<br></b></i>Art Direction , Film &amp; Edit&nbsp;<br> YA-ELLE",
                 "active": false
               },
               {
@@ -701,7 +930,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<i><b>VERED SPIVAK, MAKE UP ARTIST<br></b></i>Art Direction &amp; Edit- YA-ELLE&nbsp;",
+                "caption": "<i><b>VERED SPIVAK, MAKE UP ARTIST<br></b></i>Art Direction &amp; video Edit- YA-ELLE&nbsp;",
                 "active": false
               },
               {
@@ -714,7 +943,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "art direction&amp;edit-YA.ELLE",
+                "caption": "art direction &amp; video edit-YA.ELLE",
                 "active": false
               },
               {
@@ -727,7 +956,20 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "art direction&amp;edit-YA.ELLE&nbsp;",
+                "caption": "art direction &amp; video edit-YA.ELLE&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "fashion",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-0-15-32-44-778742.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=NOYTuzCrtL4&index=3&list=PL3-1Lk03d9Mg0Z2jY8aZu7IDFUA0ijreN&ab_channel=Yaelshaked",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "art direction &amp; video edit-YA.ELLE&nbsp;",
                 "active": true
               }
             ]
@@ -735,243 +977,87 @@
         },
         {
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
             },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
             },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "@overlayColor",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-left": "4rem"
               },
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out"
-            },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title::before": {
-                "background": "transparent !important"
-              },
-              "&:before": {
-                "opacity": "@overlayOpacity !important"
+              "@media (max-width: 991px)": {
+                "padding-top": "3rem"
               }
             },
-            ".mbr-gallery-title": {
-              "font-size": ".9em",
-              "position": "absolute",
-              "display": "block",
-              "width": "100%",
-              "bottom": "0",
-              "padding": "1rem",
-              "color": "#fff",
-              "z-index": "2",
-              "&:before": {
-                "content": "\" \"",
-                "width": "100%",
-                "height": "100%",
-                "top": "0",
-                "left": "0",
-                "z-index": "-1",
-                "position": "absolute",
-                "background": "@overlayColor !important",
-                "& when (@gradOverlay)": {
-                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-                },
-                "opacity": "@overlayOpacity",
-                "-webkit-transition": "0.2s background ease-in-out",
-                "transition": "0.2s background ease-in-out"
+            ".media-container-row": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse",
+                ".mbr-figure": {
+                  "@media (min-width: 992px)": {
+                    "padding-left": "0",
+                    "padding-right": "4rem"
+                  }
+                }
               }
             },
-            ".mbr-gallery-item > div > span B": {
-              "color": "#ffffff"
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "center"
             },
-            ".mbr-gallery-item > div > span A": {
-              "color": "#ffffff"
-            },
-            ".mbr-gallery-item > div > span": {
-              "color": "#ffffff"
+            ".mbr-section-title": {
+              "text-align": "center"
             }
           },
-          "_name": "gallery3",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cc2972\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#232323\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"6\" mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
-          "_cid": "qXLD00uXow",
-          "_anchor": "gallery3-a",
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
+          "_name": "header7",
+          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"reverseContent\">\n\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"125\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#000000\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">MUSIC VIDEO&nbsp;</h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">&nbsp; 'Let You Go' by TRL, Instatic &amp; Zelmar<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;created,directed,edit,perform by YA.ELLE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br><br><br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://www.youtube.com/watch?v=rjtodj-1mNY&ab_channel=EmilianoCaballero\" data-app-placeholder=\"Type Text\">LYRICS VIDEO</a></div>\n            </div>\n\n            <div mbr-video class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <iframe src=\"https://www.youtube.com/watch?v=z74ZMz7IGr4&ab_channel=EmilianoCaballero&loop=0&autoplay=1\"></iframe>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "r5NCL6nYGq",
+          "_protectedParams": [],
           "_global": false,
           "_once": false,
+          "_params": {},
+          "_anchor": "header7-w"
+        },
+        {
           "_params": {
-            "text_all": "MOVEMENT DIRECTION &amp; CHOREOGRAPHY",
-            "gallery__filtersTextStyle": "display-4",
-            "gallery__filtersBtnStyle": "btn-white-outline",
-            "gallery": [
-              {
-                "tags": "VIDEO",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
-                "playVideo": true,
-                "videoUrl": "https://vimeo.com/279924502",
-                "image": "@PROJECT_PATH@/assets/images/g27-1181x787.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/g27-1181x787-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<i><b>GADE </b>&nbsp;<b>COSMETICS</b></i>",
-                "active": false
-              },
-              {
-                "tags": "VIDEO",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-22-47-28-734443.jpg",
-                "playVideo": true,
-                "videoUrl": "https://vimeo.com/279924672",
-                "image": "@PROJECT_PATH@/assets/images/g51-1181x830.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/g51-1181x830-800x562.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<b>LA-ISHA MAGAZINE</b>",
-                "active": false
-              },
-              {
-                "tags": "VIDEO",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-22-46-25-229891.jpg",
-                "playVideo": true,
-                "videoUrl": "https://vimeo.com/279925630",
-                "image": "@PROJECT_PATH@/assets/images/g51-1181x830.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/g51-1181x830-800x562.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-4",
-                "caption": "<b>LOREAL</b>",
-                "active": false
-              },
-              {
-                "tags": "STILLS",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
-                "playVideo": false,
-                "videoUrl": "https://vimeo.com/279924502",
-                "image": "@PROJECT_PATH@/assets/images/gg61-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gg61-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Director, Simon Elmalem for <i><b>GOLBARY</b></i>&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "STILLS",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
-                "playVideo": false,
-                "videoUrl": "https://vimeo.com/279924502",
-                "image": "@PROJECT_PATH@/assets/images/g3-1181x1772.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/g3-1181x1772-800x1200.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Director, Simon Elmalem for<i><b> GOLBARY</b></i>&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "STILLS",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
-                "playVideo": false,
-                "videoUrl": "https://vimeo.com/279924502",
-                "image": "@PROJECT_PATH@/assets/images/g7-1181x787.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/g7-1181x787-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-4",
-                "caption": "Director, Simon Elmalem for <i><b>GOLBARY&nbsp;</b></i>",
-                "active": false
-              },
-              {
-                "tags": "STILLS",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
-                "playVideo": false,
-                "videoUrl": "https://vimeo.com/279924502",
-                "image": "@PROJECT_PATH@/assets/images/g9-1181x787.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/g9-1181x787-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Director, Simon Elmalem for <i><b>GOLBARY</b></i>&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "STILLS",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
-                "playVideo": false,
-                "videoUrl": "https://vimeo.com/279924502",
-                "image": "@PROJECT_PATH@/assets/images/g66-1181x787.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/g66-1181x787-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Director, Simon Elmalem for <i><b>GOLBARY</b></i>&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "STILLS",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
-                "playVideo": false,
-                "videoUrl": "https://vimeo.com/279924502",
-                "image": "@PROJECT_PATH@/assets/images/gg57-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gg57-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Director, Simon Elmalem for<i><b> GOLBARY</b></i>&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "STILLS",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-6-12-55-43-61288.jpg",
-                "playVideo": false,
-                "videoUrl": "https://vimeo.com/279924502",
-                "image": "@PROJECT_PATH@/assets/images/taubofficial-15-5-2018-14-21-18-778-1080x1078.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/taubofficial-15-5-2018-14-21-18-778-1080x1078-800x799.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Nadav yahalomy for<i><b> TAUB</b></i>",
-                "active": true
-              },
-              {
-                "tags": "VIDEO",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-1-11-27-20-487491.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/uXM6hBl7uvM",
-                "image": "@PROJECT_PATH@/assets/images/g3-1181x1772.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/g3-1181x1772-800x1200.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<b>LOREAL</b>",
-                "active": false
-              }
-            ]
+            "token": "4106568.727bfe1.5069d2a9f0064e93b8bd22149eb89b79",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": "3",
+            "rows": 2,
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": "0",
+            "fullWidth": true,
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "<b>&nbsp; @YA.ELLE.ART</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-r",
+          "_styles": {
+            ".inst__title B": {
+              "color": "#ffffff"
+            }
           }
         },
         {
