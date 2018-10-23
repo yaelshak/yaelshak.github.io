@@ -857,15 +857,28 @@
             "gallery": [
               {
                 "tags": "fashion",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-23-24-37-793100.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-2-16-34-20-278990.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=c-3HvTR8JMk",
+                "videoUrl": "https://www.youtube.com/watch?v=9RPllxGTLqo&ab_channel=shakshak",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "art direction &amp; video edit-YA.ELLE",
+                "caption": "<b><i>MANGO</i></b> art direction &amp; video edit-YA.ELLE",
+                "active": true
+              },
+              {
+                "tags": "fashion",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-2-16-20-17-579847.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=8B4trkW0nvM&ab_channel=shakshak",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>MANGO &nbsp;</b></i>art direction &amp; video edit-YA.ELLE",
                 "active": false
               },
               {
@@ -879,6 +892,58 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>LILACH ELGRABLI<br></b>Art Direction , Film &amp; Edit <br>YA-ELLE",
+                "active": false
+              },
+              {
+                "tags": "makeup",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-23-34-48-749710.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/GbPbKDhMC90",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i><b>VERED SPIVAK, MAKE UP ARTIST<br></b></i>Art Direction &amp; video Edit- YA-ELLE&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "fashion",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-2-16-34-56-821617.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=oyh4uQ3NF_8&ab_channel=shakshak",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b><i>FACETUNE</i></b>&nbsp; copywriting &amp; art direction &nbsp;-YA.ELLE",
+                "active": false
+              },
+              {
+                "tags": "makeup",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-4-11-18-23-757915.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=LzudroZlgQM&feature=youtu.be",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<i style=\"font-weight: bold;\">REVLON &nbsp;</i>Art Direction film &amp; edit Edit- YA-ELLE&nbsp;<i style=\"font-weight: bold;\"><br></i>",
+                "active": false
+              },
+              {
+                "tags": "fashion",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-23-24-37-793100.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=c-3HvTR8JMk",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "art direction &amp; video edit-YA.ELLE",
                 "active": false
               },
               {
@@ -918,19 +983,6 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "art direction &amp; video edit-YA.ELLE",
-                "active": true
-              },
-              {
-                "tags": "makeup",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-23-34-48-749710.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/GbPbKDhMC90",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<i><b>VERED SPIVAK, MAKE UP ARTIST<br></b></i>Art Direction &amp; video Edit- YA-ELLE&nbsp;",
                 "active": false
               },
               {
@@ -977,19 +1029,6 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/2018-6-0-11-56-44-96185.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/vimL6Kvz8iE",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<i style=\"font-weight: bold;\">VERED SPIVAK, MAKE UP ARTIST</i><br>Art Direction &amp; video Edit- YA-ELLE&nbsp;<i style=\"font-weight: bold;\"><br></i>",
-                "active": false
-              },
-              {
-                "tags": "makeup",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-4-11-18-23-757915.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=LzudroZlgQM&feature=youtu.be",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
                 "alt": "",
