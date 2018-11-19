@@ -857,32 +857,6 @@
             "gallery": [
               {
                 "tags": "fashion",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-2-16-34-20-278990.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=9RPllxGTLqo&ab_channel=shakshak",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<b><i>MANGO</i></b> art direction &amp; video edit-YA.ELLE",
-                "active": true
-              },
-              {
-                "tags": "fashion",
-                "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-2-16-20-17-579847.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=8B4trkW0nvM&ab_channel=shakshak",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<i><b>MANGO &nbsp;</b></i>art direction &amp; video edit-YA.ELLE",
-                "active": false
-              },
-              {
-                "tags": "fashion",
                 "videoPreview": "@PROJECT_PATH@/assets/images/2018-9-0-17-5-2-818803.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=1LVAd9-8xKo&ab_channel=shakshak",
@@ -891,8 +865,21 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>LILACH ELGRABLI<br></b>Art Direction , Film &amp; Edit <br>YA-ELLE",
+                "caption": "<b>MANGO</b><b><br></b>Art Direction , Film &amp; Edit <br>YA-ELLE",
                 "active": false
+              },
+              {
+                "tags": "fashion",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-10-1-11-24-18-9219.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=F51N5SpoiFw&ab_channel=shakshak",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>MANGO<br></b>Art Direction , Film &amp; Edit <br>YA-ELLE",
+                "active": true
               },
               {
                 "tags": "makeup",
@@ -1035,6 +1022,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<i style=\"font-weight: bold;\">VERED SPIVAK, MAKE UP ARTIST</i><br>Art Direction &amp; video Edit- YA-ELLE&nbsp;<i style=\"font-weight: bold;\"><br></i>",
+                "active": false
+              },
+              {
+                "tags": "fashion",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2018-10-1-11-24-48-28062.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=iGe9HS68faI&ab_channel=shakshak",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "YA-ELLE",
                 "active": false
               }
             ]
